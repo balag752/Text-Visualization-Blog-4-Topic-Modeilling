@@ -30,7 +30,7 @@ From the above keyword, we could assign some tentative topics.
 
 Now, let dig into the weight of each word with a count of words. Topic 0 mostly weights with Beaches. Also, stay is presented in all other 3 topics with heavy weight. So we should not consider in deciding the topic.
 
-![png](wordweightage.png)
+![png](Blog/wordweightage.png)
 
 
 
