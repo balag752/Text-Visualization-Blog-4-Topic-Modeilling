@@ -14,7 +14,7 @@ We have used both predefined and customized stop words for better results and us
 
 I have created a document-term matrix for LDA model and specified 4 topics for our model. Below are important keywords for each topic.
 
-![png](Wordcloud_1.png)
+![png](Blog/Wordcloud_1.png)
 
 From the above keyword, we could assign some tentative topics.
 
@@ -38,7 +38,7 @@ Now, let dig into the weight of each word with a count of words. Topic 0 mostly 
 
 We want to see how many words are distributed in each topic to understand the influence of each topic.
 
-![png](Distribution_of_topics.png)
+![png](Blog/Distribution_of_topics.png)
 
 Here black line graph is denoting the whole word count. Topic 0 is presented less than 5 documents and the count is also low. So we can't relay on this topic. But All other topics are having significantly good word count across the reviews.
 
@@ -46,13 +46,13 @@ Here black line graph is denoting the whole word count. Topic 0 is presented les
 
 Due to the visual limitation, we have filtered the randomly 10 New Delhi city hotel reviews. Each color is representing the topic of aiding keywords. Mostly, Topic 2 and 3 occupying most of the keywords in this context.
 
-![Text color](ny_text_color.png)
+![Text color](Blog/ny_text_color.png)
 
 ## TSNE - 2 Dimension Topic
 
 Here, we could cover 71 % and below depicted the 2 dimension view fo 4 different topics.
 
-![Text color](TSNE.JPG)
+![Text color](Blog/TSNE.JPG)
 
 
 
